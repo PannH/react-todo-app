@@ -1,0 +1,9 @@
+# Builds
+*/dist/
+
+# Environment
+server/.env
+
+# Node modules
+*/node_modules/
+*/package-lock.json
