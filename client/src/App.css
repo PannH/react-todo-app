@@ -1,0 +1,40 @@
+/* Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Color palette */
+/* From: https://coolors.co/ffffff-f5f7ff-00061a-8c96b5-b9c3df-e0e7fa-426ff5 */
+:root {
+   --white: #f5f7ff;
+   --black: #00061a;
+   --blue: #426ff5;
+}
+
+body {
+   background-color: var(--white);
+   color: var(--black);
+}
+
+/* Fonts */
+@font-face {
+   font-family: Alexandria;
+   src: url('./assets/fonts/Alexandria.ttf');
+}
+
+@font-face {
+   font-family: Nunito;
+   src: url('./assets/fonts/Nunito.ttf');
+}
+
+h1,
+h2,
+h3 {
+   font-family: Alexandria, sans-serif;
+}
+
+p {
+   font-family: Nunito, sans-serif;
+}
