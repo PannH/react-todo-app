@@ -26,3 +26,13 @@ header i {
 
    font-size: 2em;
 }
+
+@media (width < 400px) {
+   header {
+      font-size: 0.9em;
+   }
+
+   header .icon-box {
+      display: none;
+   }
+}
