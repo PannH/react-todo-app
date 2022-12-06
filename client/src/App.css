@@ -42,6 +42,7 @@ h3 {
    font-family: var(--primary-font);
 }
 
-p {
+p,
+span {
    font-family: var(--secondary-font);
 }
