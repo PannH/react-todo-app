@@ -30,12 +30,17 @@ body {
    src: url('./assets/fonts/Nunito.ttf');
 }
 
+:root {
+   --primary-font: Alexandria, sans-serif;
+   --secondary-font: Nunito, sans-serif;
+}
+
 h1,
 h2,
 h3 {
-   font-family: Alexandria, sans-serif;
+   font-family: var(--primary-font);
 }
 
 p {
-   font-family: Nunito, sans-serif;
+   font-family: var(--secondary-font);
 }
