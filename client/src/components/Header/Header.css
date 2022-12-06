@@ -7,6 +7,8 @@ header {
    color: var(--white);
 
    height: 5em;
+
+   border-bottom: 2px solid var(--lightblue);
 }
 
 header .icon-box {
