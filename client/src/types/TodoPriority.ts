@@ -1,0 +1,1 @@
+export type TodoPriority = 1 | 2 | 3;
