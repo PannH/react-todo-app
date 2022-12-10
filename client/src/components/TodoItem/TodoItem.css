@@ -1,0 +1,49 @@
+.todo-item {
+   background-color: var(--verylightblue);
+
+   border-radius: 10px;
+
+   height: fit-content;
+
+   padding: 0.5em 0.75em;
+
+   font-size: 1.5em;
+
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+   border-left: 5px solid;
+}
+
+.todo-item[data-priority='1'] {
+   border-color: var(--green);
+}
+
+.todo-item[data-priority='2'] {
+   border-color: var(--orange);
+}
+
+.todo-item[data-priority='3'] {
+   border-color: var(--red);
+}
+
+.todo-details {
+   font-size: 0.75em;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.todo-item ~ .todo-item {
+   margin-top: 0.75em;
+}
+
+.todo-item .divider {
+   background-color: var(--black);
+
+   margin: 10px auto;
+
+   opacity: 0.25;
+
+   height: 2px;
+   border-radius: 10px;
+}
