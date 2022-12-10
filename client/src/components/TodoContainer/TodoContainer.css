@@ -1,0 +1,39 @@
+.todo-container {
+   margin: 0.75em;
+}
+
+.query-state-title {
+   background-color: var(--verylightblue);
+
+   width: fit-content;
+
+   border-radius: 10px;
+
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+   padding: 1em 1.5em;
+   margin: 75px auto;
+
+   display: flex;
+   align-items: center;
+}
+
+.query-state-title i {
+   font-size: 1.25em;
+
+   margin-right: 0.5em;
+}
+
+.query-state-title i.fa-circle-notch {
+   animation: iconSpin 1.25s linear infinite;
+}
+
+@keyframes iconSpin {
+   from {
+      transform: rotate(0deg);
+   }
+
+   to {
+      transform: rotate(360deg);
+   }
+}
